@@ -1,0 +1,96 @@
+.menu-page-title{
+	font-size: 20px;
+	font-weight: bold;
+	margin: 15px 0 25px;
+}
+
+.menu-page-content{
+	width: 80%;
+	box-sizing: border-box;
+	padding: 15px;
+	font-size: 16px;
+	line-height: 22px;
+}
+.admin-form-row{
+	width: 80%;
+	margin: 0 0 15px;
+}
+
+.admin-form-label{
+	font-weight: bold;
+	margin: 0 0 10px;
+}
+
+.admin-form-row input[type="text"]{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	background: #fff;
+}
+
+.admin-form-row input[type="submit"]{
+	box-sizing: border-box;
+	background: #9AA238;
+	color:#fff;
+	text-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border:0;
+}
+
+.admin-form-block{
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid #ddd;
+	margin: 0 0 25px;
+}
+
+.admin-form-block-label{
+	font-size: 20px;
+	line-height: 30px;
+	margin: 0 0 20px;
+	color:#9AA238;
+}
+
+#order-table{
+	border-collapse: collapse;
+}
+
+#order-table tr:nth-child(odd){
+	background: #9AA238;
+}
+#order-table td{
+	padding:5px;
+	text-align: left;
+	font-size: 16px;
+	border: 1px solid #666;
+	color:#111;
+}
+
+#order-table th{
+	padding:5px;
+	text-align: left;
+	font-size: 16px;
+	border: 1px solid #666;
+	color:#004f38;
+}
+
+
+.order-pagination{
+	padding: 10px 0;
+	font-size: 16px;
+}
+
+.order-pagination a{
+	display:inline-block;
+	padding:5px;
+	margin: 0 5px;
+	border: 1px solid #111;
+	color: #111;
+	text-decoration: none;
+}
+
+.order-pagination a.selected{
+	background: #111;
+	color:#fff;
+}
